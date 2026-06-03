@@ -154,3 +154,6 @@ tr > .txt_shade {
     
     text-shadow: 0.2rem 0.2rem var(--light_darkening);
 }
+td > img {
+    height: 10em;
+}
