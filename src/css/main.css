@@ -18,14 +18,19 @@
 }
 
 
+
+
 html {
-    background-color: rgb(12, 0, 12);
+    background-color: color-mix(in srgb, var(--nav_bg) 10%, black 90%);
     font-family: "Fixedsys";
+    height: 100vh;
 }
 
 body {
     min-width: 644px;
+    font-size: 1rem;
 }
+
 
 .br_shadow {
     box-shadow: 5px 5px var(--light_darkening);
@@ -35,7 +40,7 @@ body {
     color: white;
     font-size: 1.8rem;
     font-weight: bolder;
-    transform: rotate(-5deg);
+    transform: rotate(-5deg) translateY(-4px);
 }
 
 .unlink {
@@ -45,6 +50,11 @@ body {
 
 .pressable {
     position: relative;
+}
+
+.pressable:hover{
+    transition-duration: 0.2s;
+    transform: rotate(5deg);
 }
 
 .pressable:active {
@@ -58,8 +68,9 @@ body {
     background-color: lightgray;
     padding: 1rem 3rem;
     box-shadow: inset -0.5em 0.5em var(--light_darkening);
-    font-size: 1.4rem;
-    font-family: "Spamton";
+    font-size: 1.6rem;
+    font-family: "Fixedsys";
+    min-height: calc(100vh - 12rem);
     
 }
 
@@ -120,7 +131,7 @@ p {
 
 table {
     border-collapse: collapse;
-    background-color: var(--table-bg);
+    background-color: var(--table_bg);
 }
 
 table > tbody > tr:nth-child(2n) {
@@ -137,4 +148,9 @@ th, td {
 
 .txt_shade {
     text-shadow: 0.2rem 0.2rem var(--heavy_darkening);
+}
+
+tr > .txt_shade {
+    
+    text-shadow: 0.2rem 0.2rem var(--light_darkening);
 }
