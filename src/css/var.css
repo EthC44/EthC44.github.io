@@ -1,0 +1,9 @@
+* {
+    margin: 0;
+    --unlink_color: black;
+    --table-bg: rgb(255, 228, 232);
+    --light_darkening: rgba(0, 0, 0, 0.2);
+    --heavy_darkening: rgba(0, 0, 0, 0.5);
+    --nav_bg: rgb(153, 0, 173);
+    --foot-bg: rgb(48, 48, 48);
+}

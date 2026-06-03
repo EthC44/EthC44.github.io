@@ -1,0 +1,75 @@
+
+.trans {
+    background-image: linear-gradient(to bottom,
+                                 rgb(119, 221, 255) 0%,
+                                 rgb(119, 221, 255) 20%,
+                                 pink 20%,
+                                 pink 40%,
+                                 white 40%,
+                                 white 60%,
+                                 pink 60%,
+                                 pink 80%,
+                                 rgb(119, 221, 255) 80%);
+}
+
+.trans:hover {
+    background-image: linear-gradient(to bottom,
+                                 rgb(176, 235, 255) 0%,
+                                 rgb(176, 235, 255) 20%,
+                                 rgb(255, 215, 222) 20%,
+                                 rgb(255, 215, 222) 40%,
+                                 white 40%,
+                                 white 60%,
+                                 rgb(255, 215, 222) 60%,
+                                 rgb(255, 215, 222) 80%,
+                                 rgb(176, 235, 255) 80%);
+}
+
+.lgbt{
+    background-image: linear-gradient(to bottom,
+                            rgb(255, 0, 0) 0%,
+                            rgb(255, 0, 0) 17%,
+                            rgb(255, 123, 0) 17%,
+                            rgb(255, 123, 0) 33%,
+                            rgb(255, 238, 0) 33%,
+                            rgb(255, 238, 0) 50%,
+                            rgb(0, 151, 8) 50%,
+                            rgb(0, 151, 8) 67%,
+                            rgb(21, 44, 252) 67%,
+                            rgb(21, 44, 252) 83%,
+                            rgb(162, 0, 255) 83%
+                            );
+}
+
+.lgbt:hover{
+    background-image: linear-gradient(to bottom,
+                            rgb(255, 88, 88) 0%,
+                            rgb(255, 88, 88) 17%,
+                            rgb(255, 156, 63) 17%,
+                            rgb(255, 156, 63) 33%,
+                            rgb(255, 242, 53) 33%,
+                            rgb(255, 242, 53) 50%,
+                            rgb(19, 175, 27) 50%,
+                            rgb(19, 175, 27) 67%,
+                            rgb(58, 78, 255) 67%,
+                            rgb(58, 78, 255) 83%,
+                            rgb(184, 61, 255) 83%
+                            );
+}
+
+.base_bg{
+    background-image: linear-gradient(to top right, 
+                                    rgb(190,190,190) 0%,
+                                    rgb(190,190,190) 33%,
+                                    rgb(160,160,160) 33%,
+                                    rgb(160,160,160) 66%,
+                                    rgb(190,190,190) 66%);
+}
+.base_bg:hover{
+    background-image: linear-gradient(to top right, 
+                                    rgb(170,170,170) 0%,
+                                    rgb(170,170,170) 33%,
+                                    rgb(140,140,140) 33%,
+                                    rgb(140,140,140) 66%,
+                                    rgb(170,170,170) 66%);
+}

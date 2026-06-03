@@ -1,0 +1,140 @@
+@import "page_edge.css";
+@import "cool_bg.css";
+@import "var.css";
+
+@font-face {
+    font-family: "Fixedsys";
+    src: url("../../assets/font/Fixedsys62.ttf");
+}
+
+@font-face {
+    font-family: "Kong";
+    src: url("../../assets/font/kongtext.ttf");
+}
+
+@font-face {
+    font-family: "Spamton";
+    src: url("../../assets/font/big-shot.ttf");
+}
+
+
+html {
+    background-color: rgb(12, 0, 12);
+    font-family: "Fixedsys";
+}
+
+body {
+    min-width: 644px;
+}
+
+.br_shadow {
+    box-shadow: 5px 5px var(--light_darkening);
+}
+
+#page_title{
+    color: white;
+    font-size: 1.8rem;
+    font-weight: bolder;
+    transform: rotate(-5deg);
+}
+
+.unlink {
+    color: var(--unlink_color);
+    text-decoration: none;
+}
+
+.pressable {
+    position: relative;
+}
+
+.pressable:active {
+    top: 2px;
+    left: 2px;
+    box-shadow: inset 4px 4px var(--light_darkening);
+}
+
+#content {
+    margin: 0 12.5%;
+    background-color: lightgray;
+    padding: 1rem 3rem;
+    box-shadow: inset -0.5em 0.5em var(--light_darkening);
+    font-size: 1.4rem;
+    font-family: "Spamton";
+    
+}
+
+p {
+    margin: 0.5em 0.5em;
+}
+
+.title_underline {
+    border-bottom-width: 3px;
+    border-bottom-color: var(--light_darkening);
+    border-bottom-style: solid;
+    padding-bottom: 0.2em;
+}
+
+.centered {
+    text-align: center;
+    margin: 0.5em;
+}
+
+#about_content {
+    position: relative;
+}
+
+#about_content > p > img {
+    float: inline-start;
+    min-width: 150px;
+    width: 20%;
+    margin-right: 1em;
+}
+
+#about_content > p {
+    position: relative;
+    align-content: baseline;
+}
+
+.thumby {
+    width: 200px;
+}
+
+.drawings {
+    margin: 0.5em 0;
+    display: flex;
+    justify-content: center;
+    gap: 2em;
+    padding: 1em;
+    flex-wrap: wrap;
+}
+
+#About {
+    padding-top: .5em;
+}
+
+#plan_content {
+    padding: 1.5em;
+    display: flex;
+    justify-content: center ;
+}
+
+table {
+    border-collapse: collapse;
+    background-color: var(--table-bg);
+}
+
+table > tbody > tr:nth-child(2n) {
+    background-color: var(--light_darkening);
+}
+table > thead {
+    background-color: rgba(0, 0, 0, 0.5);
+}
+
+th, td {
+    border: solid 4px black;
+    padding: 0.4em;
+}
+
+.txt_shade {
+    text-shadow: 0.2rem 0.2rem var(--heavy_darkening);
+}
